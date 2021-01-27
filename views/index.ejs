@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Node Files Uploads!</title>
+</head>
+
+<body>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <div class="container">
+            <!-- <br><br><br> -->
+            <h3 class="mt-5">Image Upload</h3>
+            <div class="input-group mb-3">
+                <!-- <label for="formFile" class="form-label">Upload image: </label> -->
+                <input class="form-control" name="myImage" type="file" id="formFile">
+                <input type="Submit" class="btn btn-warning" value="Submit">
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
